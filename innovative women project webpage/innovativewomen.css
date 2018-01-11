@@ -1,0 +1,59 @@
+/* Abby Press */
+/* Three Column Template */
+/* 2-January-2018 */
+
+* { 
+    margin: 0;
+    padding: 0; }
+   
+   /* this is my header basically the title of my webpage */
+header { 
+    border-bottom: 2px solid midnightblue; } 
+  
+body {
+    width: 964px;
+    background-color: lightcyan;
+    margin: 15px auto;
+    border: 1px solid midnightblue ;
+									}
+/* This is where my fun facts are */
+#sidebarA {
+    width: 20%;
+    height: 600px;     
+    float: left;
+    border-right: 2px solid midnightblue ;
+    margin: 5px;     /* This makes my sections nice and spread out and makes the bullet 
+    points not so close to the line. */
+    padding: 3px;  }
+    
+.img1 { float:right;     /* this is my first image of the logo */
+		  width: 160px;
+		  height: 300px; }	
+
+main {
+    width: 53%; 
+    float: left;    
+     margin: 3px;    /* this is my info about the team */
+    padding: 10px;  }
+    
+img { float: right;    /* this is my image of their uniforms */
+		  width: 500px;
+		  height: 200px; }
+		
+		/* this is the sidebar with the team song in it */
+#sidebarB {
+    width: 20%;
+    height: 600px;     
+    float: right;
+    border-left: 2px solid midnightblue ;
+    margin: 7px;
+    padding: 3px; }
+
+/* this is the footer at the bottom of the page */
+footer {
+    clear: both; 
+    border-top: 2px solid midnightblue;
+    margin: 5px;
+    padding: 3px; }
+    
+ul { margin: 15px; }
